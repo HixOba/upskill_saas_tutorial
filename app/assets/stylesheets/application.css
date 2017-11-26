@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+h1, h2, h2 {
+    font-family: 'Maven Pro', sans-serif;
+}
