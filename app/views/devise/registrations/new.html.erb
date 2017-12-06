@@ -2,6 +2,11 @@
   <div class="row">
     <div class="col-md-4">
       <div class="well" style="margin-top: 50px">
+        <% if params[:plan] == '2' %>
+          <h3>Pro Account Sign up Form</h3>
+        <% else %>
+          <h3>Basic Account Sign up Form</h3>
+        <% end %>
         <h2>Sign up</h2>
         
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
