@@ -60,8 +60,9 @@ h1, h2, h2 {
 }
 
 
-.alert-notice {
-  display: none;
+.alert-notice, .alert-alert, .alert-info {
+  text-align: center;
+  margin-top: -15px;
 }
 
 .home-signup-links {
